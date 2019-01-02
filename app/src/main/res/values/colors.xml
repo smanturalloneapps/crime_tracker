@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#D32F2F</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="colorLightOrange">#f2c6a4</color>
+    <color name="colorLightRed">#f97c75</color>
+
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>-->
+
+
+    <color name="colorMediumRed">#fd3d5a</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightGray">#eff5ef</color>
+
+    <color name="colorPurple">#754ea4</color>
+    <color name="colorBrownDark">#9c6556</color>
+
+    <color name="colorDarkGrayBorder">#bfbebe</color>
+    <color name="colorFullDarkGray">#9f9e9e</color>
+    <color name="colorDarkGray">#E0E0E0</color>
+
+    <color name="colorDarkBrown">#733030</color>
+    <color name="colorLightBrown">#ec8d8d</color>
+
+    <color name="colorLightBlue">#ec8d8d</color>
+    <color name="colorBorder">#66847c7c</color>
+    <color name="colorHintText">#66645f5f</color>
+
+    <color name="colorLogIcon">#66665f5f</color>
+    <color name="colorTextHint">#000000</color>
+    <color name="colorNavText">#000000</color>
+
+
+</resources>

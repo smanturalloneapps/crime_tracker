@@ -1,0 +1,240 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/create_client_coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarStyle="insideOverlay">
+
+        <RelativeLayout
+            android:id="@+id/create_client_relative_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="8dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_date_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_border"
+                app:hintEnabled="false">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/ic_calendar_new"
+                    android:hint="Enter Crime Date"
+                    android:padding="@dimen/activity_horizontal_padding"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorFullDarkGray"
+                    android:textSize="16sp"
+                    android:tint="@color/colorDarkGray" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_time_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edit_date_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                app:hintEnabled="false">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/ic_time_new"
+                    android:hint="Enter Crime Time"
+                    android:padding="@dimen/activity_horizontal_padding"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorFullDarkGray"
+                    android:textSize="16sp"
+                    android:tint="@color/colorDarkGray" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/spinner_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edit_time_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_weight="6"
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_crime_black"
+                    android:contentDescription="Crime Icon"
+                    android:layout_height="50dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_crime"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_crime_option_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/spinner_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                app:hintEnabled="false">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_crime"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/ic_crime_black"
+                    android:hint="Enter Crime Option"
+                    android:padding="@dimen/activity_horizontal_padding"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorFullDarkGray"
+                    android:textSize="16sp"
+                    android:tint="@color/colorDarkGray" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_latitude_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edit_crime_option_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                android:weightSum="1"
+                app:hintEnabled="false">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_latitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/ic_location_black"
+                    android:hint="Enter Crime Place Latitude"
+                    android:inputType="numberDecimal"
+                    android:maxLength="10"
+                    android:padding="@dimen/activity_horizontal_padding"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorFullDarkGray"
+                    android:textSize="16sp"
+                    android:tint="@color/colorDarkGray" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_longitude_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edit_latitude_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                app:hintEnabled="false">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_longitude"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/ic_location_black"
+                    android:hint="Enter Crime Place Longitude"
+                    android:inputType="numberDecimal"
+                    android:padding="@dimen/activity_horizontal_padding"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorFullDarkGray"
+                    android:textSize="16sp"
+                    android:tint="@color/colorDarkGray" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/edit_address_layout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/edit_longitude_layout"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_text_border"
+                app:hintEnabled="false">
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/edit_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="20dp"
+                    android:drawableStart="@drawable/ic_home_black"
+                    android:hint="Enter Crime Address"
+                    android:inputType="textEmailAddress|textCapWords"
+                    android:padding="@dimen/activity_horizontal_padding"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorFullDarkGray"
+                    android:textSize="16sp"
+                    android:tint="@color/colorDarkGray" />
+            </android.support.design.widget.TextInputLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/edit_address_layout"
+                android:layout_marginTop="40dp">
+
+                <Button
+                    android:id="@+id/button_clear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_border"
+                    android:text="Clear"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/button_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_border"
+                    android:text="Submit"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
+

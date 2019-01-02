@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="design_navigation_icon_size" tools:override="true">30dp</dimen>
+
+    <dimen name="activity_horizontal_padding">10dp</dimen>
+    <dimen name="activity_vertical_padding">10dp</dimen>
+    <dimen name="relative_horizontal_padding">16dp</dimen>
+    <dimen name="relative_vertical_padding">16dp</dimen>
+    <dimen name="relative_paddingTop">16dp</dimen>
+    <dimen name="relative_paddingBottom">16dp</dimen>
+    <dimen name="relative_paddingEnd">16dp</dimen>
+    <dimen name="relative_paddingLeft">16dp</dimen>
+    <dimen name="relative_paddingRight">16dp</dimen>
+    <dimen name="relative_paddingStart">16dp</dimen>
+    <dimen name="relative_vertical_margin">10dp</dimen>
+    <dimen name="relative_horizontal_margin">10dp</dimen>
+
+    <dimen name="text_input_edit_text_size">16sp</dimen>
+    <dimen name="small_margin">5dp</dimen>
+    <dimen name="medium_margin">10dp</dimen>
+    <dimen name="large_margin">20dp</dimen>
+    <dimen name="extra_large_margin">15dp</dimen>
+    <dimen name="huge_margin">20dp</dimen>
+
+    <dimen name="small_padding">5dp</dimen>
+    <dimen name="medium_padding">8dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="dialog_padding">24dp</dimen>
+    <dimen name="dialog_button_padding">8dp</dimen>
+    <dimen name="input">14sp</dimen>
+    <dimen name="input_text_height">40dp</dimen>
+    <dimen name="input_loc_height">30dp</dimen>
+</resources>

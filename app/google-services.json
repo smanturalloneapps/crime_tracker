@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "569652487658",
+    "firebase_url": "https://crime-tracker-234cb.firebaseio.com",
+    "project_id": "crime-tracker-234cb",
+    "storage_bucket": "crime-tracker-234cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569652487658:android:90c354cc3c54f550",
+        "android_client_info": {
+          "package_name": "com.taranga.crimetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569652487658-85nh9o8vvk9g8m7lr9dul13he2de0eod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.taranga.crimetracker",
+            "certificate_hash": "b346d7e70233cd1597981d062c57167d2a9e42a1"
+          }
+        },
+        {
+          "client_id": "569652487658-vdvlgt5a3fkprved6ie2fb7rpr7pdubf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHeC4uY7Qn2EOC77bRIo0DCTz8zRHQi3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569652487658-vdvlgt5a3fkprved6ie2fb7rpr7pdubf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

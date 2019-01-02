@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/nav_crime_alert_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_crime_alert"
+            android:icon="@drawable/ic_location_eye"
+            android:title="Crime Alert" />
+    </group>
+
+    <group android:id="@+id/nav_crime_entry_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_crime_entry"
+            android:icon="@drawable/ic_entry"
+            android:title="Crime Entry" />
+    </group>
+
+    <group android:id="@+id/nav_crime_history_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_crime_history"
+            android:icon="@drawable/ic_history"
+            android:title="Crime History" />
+    </group>
+
+    <group android:id="@+id/nav_share_location_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_share_location"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share Location" />
+    </group>
+
+    <group
+        android:id="@+id/nav_settings_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+
+    <group android:id="@+id/nav_sync_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sync"
+            android:icon="@drawable/ic_sync"
+            android:title="Sync" />
+    </group>
+
+    <group android:id="@+id/nav_empty_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_empty"
+            android:title="" />
+    </group>
+
+</menu>

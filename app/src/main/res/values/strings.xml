@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Crime Tracker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="location_support">Location not supported in this device</string>
+
+    <string name="unable_to_create">Unable to create maps</string>
+    <string name="core_functions_map">Some core functions of the app might not work correctly without these permissions.Please ALLOW them in app settings</string>
+    <string name="allow">ALLOW</string>
+    <string name="permission_grant">Permission Granted, Now you can access location data.</string>
+    <string name="permission_denied">Permission Denied, You cannot access location data.</string>
+    <string name="enable_gps">Please ENABLE GPS for better performance of app.</string>
+    <string name="enable">Enable</string>
+
+    <string name="implementation_on_fragment_listener"> must implement OnFragmentInteractionListener</string>
+</resources>
